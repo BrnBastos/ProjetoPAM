@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_color">#002244</color>
+    <color name="dark_green">#067937</color>
+    <color name="second_color">#0AB855</color>
+    <color name="azul_bebe">#2B6299</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>
