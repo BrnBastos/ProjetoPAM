@@ -6,10 +6,15 @@
     <color name="second_color">#0AB855</color>
     <color name="azul_bebe">#2B6299</color>
 
+    <!--   *******************   -->
+
     <color name="white">#FFFFFFFF</color>
     <color name="black">#000000</color>
     <color name="purple_500">#0c0c0c</color>
     <color name="teal_200">#f4f4f4</color>
+
+    <!--   *******************   -->
+
     <color name="purple_700">#0c0c0c</color>
     <color name="teal_700">#f4f4f4</color>
     <color name="purple_200">#0c0c0c</color>

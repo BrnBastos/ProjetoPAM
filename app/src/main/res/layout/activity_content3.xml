@@ -7,98 +7,153 @@
     tools:context=".Content_3">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_width="428dp"
+        android:layout_height="141dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.826"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/barraazulgrossa" />
+
+    <Button
+        android:id="@+id/btn_cont2"
+        android:layout_width="124dp"
+        android:layout_height="41dp"
+        android:onClick="TelaCont2"
+        android:text="@string/pt2"
+        app:backgroundTint="@color/azul_bebe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <Button
+        android:id="@+id/btn_intro2"
+        android:layout_width="135dp"
+        android:layout_height="39dp"
+        android:onClick="TelaCont"
+        android:text="@string/pt1"
+        app:backgroundTint="@color/azul_bebe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <Button
+        android:id="@+id/btn_redacao2"
+        android:layout_width="116dp"
+        android:layout_height="39dp"
+        android:onClick="TelaCont3"
+        android:text="@string/pt3"
+        app:backgroundTint="@color/azul_bebe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageView10"
+        android:layout_width="466dp"
+        android:layout_height="153dp"
+        android:layout_marginBottom="600dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/barraazulgrossa" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_menu4"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="696dp"
+        android:background="@color/main_color"
+        android:onClick="TelaContent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/ic_menu" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        app:srcCompat="@drawable/ic_menu"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="654dp" />
+        android:id="@+id/imgbtn_equip4"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="696dp"
+        android:background="@color/main_color"
+        android:onClick="TelaEquip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_info" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        app:srcCompat="@drawable/ic_home"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="654dp" />
 
-    <ImageButton
-        android:id="@+id/imageButton12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        app:srcCompat="@drawable/ic_people"
-        tools:layout_editor_absoluteX="316dp"
-        tools:layout_editor_absoluteY="651dp" />
+        android:id="@+id/imgbtn_home4"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="696dp"
+        android:background="@color/main_color"
+        android:onClick="TelaHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_home" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="384dp"
+        android:layout_height="454dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191" />
+        app:layout_constraintVertical_bias="0.742">
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="373dp"
+                android:layout_height="115dp"
+                android:text="@string/RedaçãoInt" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="383dp"
+                android:text="@string/redc1"
+                tools:text="@string/redc1" />
+        </LinearLayout>
+    </ScrollView>
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="75dp"
         android:layout_height="81dp"
-        app:srcCompat="@drawable/book"
-        tools:layout_editor_absoluteX="331dp"
-        tools:layout_editor_absoluteY="4dp" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="378dp"
-        android:layout_height="111dp"
-        android:text="@string/RedaçãoInt"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.97"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.283" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/book" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

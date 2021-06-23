@@ -3,8 +3,12 @@ package com.example.learn;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
+
+import java.io.UnsupportedEncodingException;
 
 public class Equip extends AppCompatActivity {
 
@@ -13,6 +17,16 @@ public class Equip extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_equip);
     }
+
+    public void abrirTel(View view ){
+
+        Uri uri = Uri.parse("tel:11 94448-5007");
+
+        Intent it = new Intent(Intent.ACTION_DIAL, uri);
+
+        startActivity(it);
+
+}
 
     public void TelaHome(View view){
 
@@ -25,4 +39,8 @@ public class Equip extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Content_1.class);
         startActivity(intent);
     }
+
+
+
+
 }

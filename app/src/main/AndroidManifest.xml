@@ -9,7 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Learn">
-        <activity android:name=".Content_3"></activity>
+        <!--
+          <activity android:name=".WebViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFULT"/>
+                <category android:name="android.intent.category.BROWSABL"/>
+            </intent-filter>
+        </activity>
+        -->
+        <activity android:name=".Content_3" />
         <activity android:name=".Content_2" />
         <activity android:name=".Content_1" />
         <activity android:name=".Equip" />

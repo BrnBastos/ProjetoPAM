@@ -10,17 +10,42 @@
     <string name="botao_menu">Entrar</string>
     <string name="slogan">Uma nova maneira de aprender</string>
 
+    <!--   *******************   -->
+
     <string name="boas_vindas">Boas Vindas a Learn, </string>
+    <string name="BD"> Bruno!</string>
 
-    <string name="intro">O conteúdo consiste em uma ferramenta de estudos para redações,
-        possuindo as devidas explicações para cada gênero textual, esqueletos de textos,
-        mapas mentais, arquivos de redações exemplares, dicas fundamentais para uma boa redação etc.
-        Também possuirá uma área para conteúdos mais epecíficos,
-        como exemplos de conectivos para uma boa redação, exemplos de redações nota 1000 (ENEM),
-        técnicas de estudos, recomedações de livros para um melhor vocabulário e mais.</string>
 
-    <string name="equipe"> Equipe Learn</string>
-    <string name="intro_equipe"> Idealizada no ano de 2021 por Bruno Bastos e Gabriel Jard...</string>
+    <string name="intro">O Learn é uma ferramenta de estudos que te auxilia a garantir aquele 10 que você precisa em redação para o final do semestre! A plataforma disponibiliza cronogramas de estudos detalhados para você não perder aquele tempo de pesquisa que na maioria das vezes nem mesmo tem para gastar!</string>
+
+<string name="slogan2"> Somos únicos, somos Learn.</string>
+
+    <string name="email"> Avalie-nos</string>
+
+    <string name="ofer">Nos ajude a melhorar nossa aplicação, avalie-nos na Play Store!</string>
+
+    <!--   *******************   -->
+
+    <string name="equipe"> Informações Equipe Learn</string>
+
+    <!--   *******************   -->
+
+    <string name="intro_equipe"> Learn Apllication BETA</string>
+
+<string name="equipe1">© 2021 Learn BG</string>
+
+<string name="equipe2"> Agradecemos aos professores, pelas correções e ensinamentos que nos permitiram apresentar um melhor desempenho no processo de formação da aplicação ao longo do bimestre.</string>
+
+<string name="help"> Encontrou algum problema?  Ajude-nos a repará-lo:</string>
+
+<string name="equipe3"> Este app utiliza:</string>"\n"
+
+<string name="equipe4"> Android Studio</string>"\n"
+
+<string name="equipe5"> Linguagem de programação JAVA</string>"\n"
+
+
+    <!--   *******************   -->
 
     <string name="pt1"> Introdução</string>
     <string name="pt2"> Conteúdo</string>
@@ -32,6 +57,26 @@
         entreter com o desenvolvimento e por fim encontrar uma resposta na conclusão, essa é uma tarefa mais complicada do que parece. Por isso separamos aqui,
         as mais recentes redações nota 1000 do ENEM! </string>
     <string name="introCont"> Aqui é a página de dicas, venha entender tudo e mais um pouco sobre escrever e  </string>
+    <string name="redc1"> "Nise da Silveira foi uma renomada psiquiatra brasileira que, indo contra a comunidade médica tradicional da sua época, lutou a favor de um tratamento humanizado para pessoas com transtornos psicológicos. No contexto nacional atual, indivíduos com patologias mentais ainda sofrem com diversos estigmas criados. Isso ocorre, pois faltam informações corretas sobre o assunto e, também, existe uma carência de representatividade desse grupo nas mídias.
+
+Primariamente, vale ressaltar que a ignorância é uma das principais causas da criação de preconceitos contra portadores de doenças psiquiátricas. Sob essa ótica, o pintor holandês Vincent Van Gogh foi alvo de agressões físicas e psicológicas por sofrer de transtornos neurológicos e não possuir o tratamento adequado. O ocorrido com o artista pode ser presenciado no corpo social brasileiro, visto que, apesar de uma parcela significativa da população lidar com alguma patologia mental, ainda são propagadas informações incorretas sobre o tema. Esse processo fortalece a ideia de que integrantes não são capazes de conviver em sociedade, reforçando estigmas antigos e criando novos. Dessa forma, a ignorância contribui para a estigmatização desses indivíduos e prejudica o coletivo.
+
+Ademais, a carência de representatividade nos veículos midiáticos fomenta o preconceito contra pessoas com distúrbios psicológicos. Nesse sentido, a série de televisão da emissora HBO, "Euphoria", mostra as dificuldades de conviver com Transtorno Afetivo Bipolar (TAB), ilustrado pela protagonista Rue, que possui a doença. A série é um exemplo de representação desse grupo, nas artes, falando sobre a doença de maneira responsável. Contudo, ainda é pouca a representatividade desses indivíduos em livros, filmes e séries, que quando possuem um papel, muitas vezes, são personagens secundários e não há um aprofundamento de sua história. Desse modo, esse processo agrava os esteriótipos contra essas pessoas e afeta sua autoestima, pois eles não se sentem representados.
+
+Portanto, faz-se imprescindível que a mídia - instrumento de ampla abrangência - informe a sociedade a respeito dessas doenças e sobre como conviver com pessoas portadoras, por meio de comerciais periódicos nas redes sociais e debates televisivos, a fim de formar cidadãos informados. Paralelamente, o Estado - principal promotor da harmonia social - deve promover a representatividade de pessoas com transtornos mentais nas artes, por intermédio de incentivos monetários para produzir obras sobre o tema, com o fato de amenizar o problema. Assim, o corpo civil será mais educado e os estigmas contra indivíduos com patologias mentais não serão uma realidade do Brasil."  </string>
+
+    <string name="pgf1"> Encontre aqui, as melhores dicas e com os professores mais bem avaliados do aplicativo       </string>
+    <string name="Image"> Ilustração </string>
+    <string name="desSocial">  Desigualdade Social, importante para formar uma opnião e é tema em diversos vestibulares </string>
+    <string name="cronoText"> Monte seu cronograma e ajeite suas coisas, as vezes você estuda por horas mas não está aproveitando como deveria </string>
+    <string name="humanText"> Super resumão sobre linguagem, redação e humanas, essa você não pode perder </string>
+    <string name="Enemp1">Exame Nacional do Ensino Médio (ENEM), foi criado em 1998, com o objetivo de avaliar o desempenho dos estudantes concluintes do ensino médio. A partir de 2004, a prova passou a ser utilizada como ferramenta para ingresso em instituições do ensino superior e, em 2010, com sua inclusão no Sistema de Seleção Unificada (Sisu), foi reconhecido como o maior e mais completo exame educacional do Brasil.</string>
+    <string name="Enemp2">As provas do Enem são realizadas em dois domingos consecutivos, com duas aplicações diferentes, uma feita impressa e outra em versão digital. No primeiro dia, os estudantes têm de responder questões de Linguagens, Códigos e suas Tecnologias; Ciências Humanas suas Tecnologias, e fazer a Redação, totalizando 5 horas e 30 minutos. </string>
+    <string name="Enemp3">Achou muito? Pois já no segundo dia, é a vez dos candidatos testarem seus conhecimentos em conteúdos ligados às Ciências da Natureza e suas Tecnologias, além de Matemática e suas Tecnologias, nessa etapa, o tempo para realização das provas é menor: 5 horas.</string>
+
+    <string name="enemTiltle"> Provas do ENEM </string>
+
+    <!--   *******************   -->
 
 
 </resources>
