@@ -20,4 +20,10 @@ public class Menu_inicial extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void TelaContent(View view){
+
+        Intent intent = new Intent(getApplicationContext(), Content_1.class);
+        startActivity(intent);
+    }
+
 }
