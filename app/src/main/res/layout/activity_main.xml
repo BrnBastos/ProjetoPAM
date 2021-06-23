@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/main_color">
+    android:background="@drawable/gradient">
 
     <ImageView
         android:id="@+id/imageView"
@@ -21,6 +21,7 @@
 
     <Button
         android:id="@+id/btn_menu"
+        android:onClick="TelaMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/botao_menu"

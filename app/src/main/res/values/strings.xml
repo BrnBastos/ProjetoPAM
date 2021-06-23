@@ -1,11 +1,37 @@
 <resources>
+    <!--   <string name="logo"> </string>   -->
+
     <string name="logo">LogoTipo da aplicação</string>
+
     <string name="app_name">Learn</string>
+
     <string name="nome">Insira seu nome</string>
 
     <string name="botao_menu">Entrar</string>
-
     <string name="slogan">Uma nova maneira de aprender</string>
+
+    <string name="boas_vindas">Boas Vindas a Learn, </string>
+
+    <string name="intro">O conteúdo consiste em uma ferramenta de estudos para redações,
+        possuindo as devidas explicações para cada gênero textual, esqueletos de textos,
+        mapas mentais, arquivos de redações exemplares, dicas fundamentais para uma boa redação etc.
+        Também possuirá uma área para conteúdos mais epecíficos,
+        como exemplos de conectivos para uma boa redação, exemplos de redações nota 1000 (ENEM),
+        técnicas de estudos, recomedações de livros para um melhor vocabulário e mais.</string>
+
+    <string name="equipe"> Equipe Learn</string>
+    <string name="intro_equipe"> Idealizada no ano de 2021 por Bruno Bastos e Gabriel Jard...</string>
+
+    <string name="pt1"> Introdução</string>
+    <string name="pt2"> Conteúdo</string>
+    <string name="pt3"> Redações</string>
+
+    <string name="introducao">  </string>
+
+    <string name="RedaçãoInt"> Para muitos estudantes, a redação do ENEM é a parte mais assustadora da prova, saber atrair a atenção com a introdução,
+        entreter com o desenvolvimento e por fim encontrar uma resposta na conclusão, essa é uma tarefa mais complicada do que parece. Por isso separamos aqui,
+        as mais recentes redações nota 1000 do ENEM! </string>
+
 
 
 </resources>

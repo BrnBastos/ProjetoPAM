@@ -6,21 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
-
+public class Menu_inicial extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_menu_inicial);
     }
 
-    public void TelaMenu(View view){
+    public void TelaEquip(View view){
 
-        Intent intent = new Intent(getApplicationContext(), Menu_inicial.class);
+        Intent intent = new Intent(getApplicationContext(), Equip.class);
         startActivity(intent);
     }
-
-
 
 }
