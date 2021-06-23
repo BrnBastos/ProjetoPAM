@@ -1,5 +1,5 @@
 # ProjetoPAM 2°ETIM DS
-Primeiro projeto no Android Studio realizado no ano de 2021.
+Primeira versão do projeto Learn no Android Studio realizado no ano de 2021.
 
 Integrantes: Bruno Bastos e Gabriel Jard
 
