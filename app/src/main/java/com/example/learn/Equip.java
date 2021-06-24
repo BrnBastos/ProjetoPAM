@@ -20,7 +20,7 @@ public class Equip extends AppCompatActivity {
 
     public void abrirTel(View view ){
 
-        Uri uri = Uri.parse("tel:11 94448-5007");
+        Uri uri = Uri.parse("tel:11 98888-7777");
 
         Intent it = new Intent(Intent.ACTION_DIAL, uri);
 
