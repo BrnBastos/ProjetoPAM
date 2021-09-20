@@ -26,6 +26,12 @@ public class Content_3 extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void TelaCont3(View view){
+
+        Intent intent = new Intent(getApplicationContext(), Content_3.class);
+        startActivity(intent);
+    }
+
     public void TelaEquip(View view){
 
         Intent intent = new Intent(getApplicationContext(), Equip.class);

@@ -18,7 +18,7 @@
 
     <string name="intro">O Learn é uma ferramenta de estudos que te auxilia a garantir aquele 10 que você precisa em redação para o final do semestre! A plataforma disponibiliza cronogramas de estudos detalhados para você não perder aquele tempo de pesquisa que na maioria das vezes nem mesmo tem para gastar!</string>
 
-<string name="slogan2"> Somos únicos, somos Learn.</string>
+    <string name="slogan2"> Somos únicos, somos Learn.</string>
 
     <string name="email"> Avalie-nos</string>
 
@@ -32,17 +32,17 @@
 
     <string name="intro_equipe"> Learn Apllication BETA</string>
 
-<string name="equipe1">© 2021 Learn BG</string>
+    <string name="equipe1">© 2021 Learn BG</string>
 
-<string name="equipe2"> Agradecemos aos professores, pelas correções e ensinamentos que nos permitiram apresentar um melhor desempenho no processo de formação da aplicação ao longo do bimestre.</string>
+    <string name="equipe2"> Agradecemos aos professores, pelas correções e ensinamentos que nos permitiram apresentar um melhor desempenho no processo de formação da aplicação ao longo do bimestre.</string>
 
-<string name="help"> Encontrou algum problema?  Ajude-nos a repará-lo:</string>
+    <string name="help"> Encontrou algum problema?  Ajude-nos a repará-lo:</string>
 
-<string name="equipe3"> Este app utiliza:</string>"\n"
+    <string name="equipe3"> Este app utiliza:</string>"\n"
 
-<string name="equipe4"> Android Studio</string>"\n"
+    <string name="equipe4"> Android Studio</string>"\n"
 
-<string name="equipe5"> Linguagem de programação JAVA</string>"\n"
+    <string name="equipe5"> Linguagem de programação JAVA</string>"\n"
 
 
     <!--   *******************   -->

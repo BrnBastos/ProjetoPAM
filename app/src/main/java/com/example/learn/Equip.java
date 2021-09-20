@@ -40,6 +40,12 @@ public class Equip extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void TelaLocation(View view){
+
+        Intent intent = new Intent(getApplicationContext(), Location.class);
+        startActivity(intent);
+    }
+
 
 
 
