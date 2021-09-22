@@ -68,7 +68,7 @@
         app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247" />
+        app:layout_constraintVertical_bias="0.204" />
 
     <TextView
         android:id="@+id/txt_info2"
@@ -78,10 +78,10 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313" />
+        app:layout_constraintVertical_bias="0.278" />
 
     <TextView
         android:id="@+id/txt_info"
@@ -94,7 +94,7 @@
         app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.171" />
+        app:layout_constraintVertical_bias="0.136" />
 
     <TextView
         android:id="@+id/txt_info3"
@@ -109,7 +109,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.389" />
+        app:layout_constraintVertical_bias="0.351" />
 
     <Button
         android:id="@+id/btn_contato"
@@ -140,7 +140,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537" />
+        app:layout_constraintVertical_bias="0.462" />
 
     <TextView
         android:id="@+id/txt_info6"
@@ -153,7 +153,7 @@
         app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639" />
+        app:layout_constraintVertical_bias="0.582" />
 
     <TextView
         android:id="@+id/txt_info5"
@@ -166,7 +166,7 @@
         app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598" />
+        app:layout_constraintVertical_bias="0.525" />
 
     <TextView
         android:id="@+id/txt_help"
@@ -179,14 +179,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/btnLocation"
+    <ImageButton
+        android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="TelaLocation"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_equip3"
+        android:onClick="TelaGeo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706"
+        app:srcCompat="@drawable/google_maps_new_logo_icon_159147" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="180dp"
+        android:layout_height="41dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="480dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

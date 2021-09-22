@@ -1,17 +1,18 @@
 package com.example.learn;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
+import android.location.Location;
 import android.location.LocationListener;
 import android.os.Bundle;
 
-public class Location implements LocationListener {
+import androidx.annotation.NonNull;
+
+public class MinhaLocalizacaoListener implements LocationListener {
     public static double latitude;
     public static double longitude;
 
     @Override
-    public void onLocationChanged(android.location.Location location) {
-        this.latitude  = location.getLatitude();
+    public void onLocationChanged(Location location) {
+        this.latitude = location.getLatitude();
         this.longitude = location.getLongitude();
     }
 

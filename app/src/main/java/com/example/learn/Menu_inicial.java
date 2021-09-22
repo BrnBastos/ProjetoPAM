@@ -3,12 +3,16 @@ package com.example.learn;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
+//import android.view.Menu;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
+//import java.io.UnsupportedEncodingException;
+//import java.net.URLEncoder;
 
 public class Menu_inicial extends AppCompatActivity {
 

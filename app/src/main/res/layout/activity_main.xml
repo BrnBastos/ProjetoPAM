@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    android:onClick="TelaMenu"
     tools:context=".MainActivity">
+
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="164dp"
         android:layout_height="179dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="36dp"
         android:contentDescription="@string/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -20,43 +20,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/book" />
 
-    <Button
-        android:id="@+id/btn_menu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="TelaMenu"
-        android:text="@string/botao_menu"
-        app:backgroundTint="@color/dark_green"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_message" />
-
-    <EditText
-        android:id="@+id/edit_message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/nome"
-        android:ems="10"
-        android:hint="@string/nome"
-        android:inputType="textPersonName"
-        android:shadowColor="@color/white"
-        android:textColor="@color/white"
-        android:textColorHighlight="@color/white"
-        android:textColorHint="@color/white"
-        android:textColorLink="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.325" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/app_name"
         android:text="@string/app_name"
         android:textColor="@color/white"
@@ -68,15 +37,72 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:contentDescription="@string/slogan"
         android:text="@string/slogan"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/edit_message"
+
+
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/nomeEt"
+        android:layout_width="376dp"
+        android:layout_height="54dp"
+        android:hint="insira um nome"
+        android:inputType="textCapSentences"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516" />
+
+    <EditText
+        android:id="@+id/ageEt"
+        android:layout_width="376dp"
+        android:layout_height="57dp"
+        android:hint="insira sua idade"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="331dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:text="@string/checkText"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:onClick="Tela_Menu"
+        android:text="Login"
+        android:backgroundTint="@color/dark_green"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="576dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

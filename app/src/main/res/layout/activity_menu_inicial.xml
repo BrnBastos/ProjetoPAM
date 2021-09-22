@@ -11,36 +11,42 @@
         android:id="@+id/imgbtn_equip"
         android:layout_width="145dp"
         android:layout_height="40dp"
+        android:layout_marginTop="22dp"
         android:background="@color/main_color"
         android:onClick="TelaEquip"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/ic_info" />
+
 
     <ImageButton
 
         android:id="@+id/imgbtn_home"
         android:layout_width="145dp"
         android:layout_height="40dp"
+        android:layout_marginTop="22dp"
         android:background="@color/main_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/ic_home" />
 
     <ImageButton
         android:id="@+id/imgbtn_menu"
         android:layout_width="125dp"
         android:layout_height="40dp"
+        android:layout_marginTop="22dp"
         android:background="@color/main_color"
         android:onClick="TelaContent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/ic_menu" />
 
     <ImageView
@@ -85,8 +91,8 @@
     <TextView
         android:id="@+id/txt_conteudo"
 
-        android:layout_width="371dp"
-        android:layout_height="162dp"
+        android:layout_width="362dp"
+        android:layout_height="104dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginEnd="20dp"
@@ -94,68 +100,51 @@
         android:text="@string/intro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339" />
+        app:layout_constraintVertical_bias="0.357" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="171dp"
-        android:layout_height="87dp"
+        android:layout_width="173dp"
+        android:layout_height="51dp"
         android:contentDescription="@string/ofer"
         android:text="@string/ofer"
         android:textColor="@color/dark_green"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
+        app:layout_constraintVertical_bias="0.532" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="405dp"
-        android:layout_height="236dp"
+        android:layout_width="396dp"
+        android:layout_height="222dp"
         android:contentDescription="@string/Image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.866"
+        app:layout_constraintVertical_bias="0.878"
         app:srcCompat="@drawable/undraw_notebook_re_id0r" />
-
-    <TextView
-
-        android:id="@+id/txt_bd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/BD"
-        android:textColor="@color/dark_green"
-        android:textSize="23sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.742"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
         android:text="@string/boas_vindas"
         android:textColor="@color/dark_green"
         android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintVertical_bias="0.227" />
 
     <Button
         android:id="@+id/btn_email"
@@ -166,9 +155,10 @@
         app:backgroundTint="@color/main_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintHorizontal_bias="0.943"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521" />
+        app:layout_constraintVertical_bias="0.53" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

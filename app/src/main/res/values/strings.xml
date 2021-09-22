@@ -7,8 +7,12 @@
 
     <string name="nome">Insira seu nome</string>
 
-    <string name="botao_menu">Entrar</string>
+    <string name="age">Insira sua idade</string>
+
+    <string name="botao_menu">Login</string>
     <string name="slogan">Uma nova maneira de aprender</string>
+
+    <string name="checkText"> Lembrar de mim </string>
 
     <!--   *******************   -->
 

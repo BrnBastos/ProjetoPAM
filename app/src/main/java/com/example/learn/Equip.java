@@ -39,14 +39,10 @@ public class Equip extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Content_1.class);
         startActivity(intent);
     }
+    public void TelaGeo(View view){
 
-    public void TelaLocation(View view){
-
-        Intent intent = new Intent(getApplicationContext(), Location.class);
+        Intent intent = new Intent(getApplicationContext(), GeoLocation.class);
         startActivity(intent);
     }
-
-
-
 
 }
