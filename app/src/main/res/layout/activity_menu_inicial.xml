@@ -11,14 +11,12 @@
         android:id="@+id/imgbtn_equip"
         android:layout_width="145dp"
         android:layout_height="40dp"
-        android:layout_marginTop="22dp"
         android:background="@color/main_color"
         android:onClick="TelaEquip"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/ic_info" />
 
 
@@ -27,26 +25,22 @@
         android:id="@+id/imgbtn_home"
         android:layout_width="145dp"
         android:layout_height="40dp"
-        android:layout_marginTop="22dp"
         android:background="@color/main_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/ic_home" />
 
     <ImageButton
         android:id="@+id/imgbtn_menu"
         android:layout_width="125dp"
         android:layout_height="40dp"
-        android:layout_marginTop="22dp"
         android:background="@color/main_color"
         android:onClick="TelaContent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/ic_menu" />
 
     <ImageView
@@ -91,19 +85,18 @@
     <TextView
         android:id="@+id/txt_conteudo"
 
-        android:layout_width="362dp"
-        android:layout_height="104dp"
+        android:layout_width="352dp"
+        android:layout_height="97dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
+        android:gravity="center"
         android:text="@string/intro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintVertical_bias="0.269" />
 
     <TextView
         android:id="@+id/textView5"
@@ -114,37 +107,22 @@
         android:textColor="@color/dark_green"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532" />
+        app:layout_constraintVertical_bias="0.451" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="396dp"
-        android:layout_height="222dp"
+        android:layout_width="363dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="388dp"
         android:contentDescription="@string/Image"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintHorizontal_bias="0.632"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.878"
         app:srcCompat="@drawable/undraw_notebook_re_id0r" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:text="@string/boas_vindas"
-        android:textColor="@color/dark_green"
-        android:textSize="23sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227" />
 
     <Button
         android:id="@+id/btn_email"
@@ -155,10 +133,30 @@
         app:backgroundTint="@color/main_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.53" />
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="328dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="29dp"
+        android:onClick="TelaSensor"
+        android:text="@string/sensorInfo"
+        android:textColor="@color/azul_bebe"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/imgbtn_equip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.634" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,10 +16,22 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/barraazulgrossa" />
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="466dp"
+        android:layout_height="153dp"
+        android:layout_marginBottom="600dp"
+        android:onClick="TelaCont2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/barraazulgrossa" />
+
     <Button
         android:id="@+id/btn_cont3"
         android:layout_width="124dp"
-        android:layout_height="41dp"
+        android:layout_height="39dp"
         android:text="@string/pt2"
         app:backgroundTint="@color/azul_bebe"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,18 +68,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.127" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="466dp"
-        android:layout_height="153dp"
-        android:layout_marginBottom="600dp"
-        android:onClick="TelaCont2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/barraazulgrossa" />
 
     <ImageView
         android:id="@+id/imageView12"

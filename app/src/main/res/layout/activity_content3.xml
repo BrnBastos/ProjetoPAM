@@ -18,24 +18,24 @@
 
     <Button
         android:id="@+id/btn_cont2"
-        android:layout_width="124dp"
-        android:layout_height="41dp"
+        android:layout_width="125dp"
+        android:layout_height="39dp"
         android:onClick="TelaCont2"
         android:text="@string/pt2"
         app:backgroundTint="@color/azul_bebe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.127" />
 
     <Button
         android:id="@+id/btn_intro2"
-        android:layout_width="135dp"
+        android:layout_width="132dp"
         android:layout_height="39dp"
         android:onClick="TelaCont"
         android:text="@string/pt1"
+        android:layout_marginLeft="4dp"
         app:backgroundTint="@color/azul_bebe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +46,7 @@
 
     <Button
         android:id="@+id/btn_redacao2"
-        android:layout_width="116dp"
+        android:layout_width="125dp"
         android:layout_height="39dp"
         android:onClick="TelaCont3"
         android:text="@string/pt3"
@@ -57,17 +57,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.127" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="466dp"
-        android:layout_height="153dp"
-        android:layout_marginBottom="600dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/barraazulgrossa" />
 
     <ImageButton
         android:id="@+id/imgbtn_menu4"
@@ -139,7 +128,7 @@
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
-                android:layout_height="383dp"
+                android:layout_height="481dp"
                 android:text="@string/redc1"
                 tools:text="@string/redc1" />
         </LinearLayout>
@@ -149,11 +138,12 @@
         android:id="@+id/imageView7"
         android:layout_width="75dp"
         android:layout_height="81dp"
-        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintHorizontal_bias="0.952"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
         app:srcCompat="@drawable/book" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

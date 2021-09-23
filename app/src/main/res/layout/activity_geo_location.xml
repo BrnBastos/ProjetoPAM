@@ -9,51 +9,51 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="388dp"
-        android:layout_height="36dp"
+        android:layout_width="191dp"
+        android:layout_height="25dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="26dp"
         android:layout_marginEnd="7dp"
         android:layout_marginRight="7dp"
         android:layout_marginBottom="16dp"
-        android:text="Desenvolvido por mim"
+        android:gravity="center"
+        android:text="@string/local"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/btnGeo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.51" />
 
     <WebView
         android:id="@+id/webv"
-        android:layout_width="389dp"
-        android:layout_height="499dp"
-        android:layout_marginBottom="80dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="382dp"
+        android:layout_height="549dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnGeo"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/btnGeo" />
 
     <Button
         android:id="@+id/btnGeo"
-        android:layout_width="354dp"
+        android:layout_width="320dp"
         android:layout_height="49dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="2dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="8dp"
         android:backgroundTint="@color/second_color"
         android:gravity="center"
         android:onClick="buscarInformacoesGPS"
-        android:text="Buscar"
-        app:layout_constraintBottom_toTopOf="@+id/webv"
+        android:text="@string/Buscar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
 </androidx.constraintlayout.widget.ConstraintLayout>

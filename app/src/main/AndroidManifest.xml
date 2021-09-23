@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Learn">
-        <activity android:name=".AnotherActivity"></activity>
+        <activity android:name=".SensorLumi"></activity>
+        <activity android:name=".AnotherActivity" />
         <activity android:name=".GeoLocation" />
         <activity android:name=".Content_3" />
         <activity android:name=".Content_2" />

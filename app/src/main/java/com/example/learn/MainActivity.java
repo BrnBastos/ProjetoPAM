@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     EditText mNameEt, mAgeEt;
     CheckBox mRemember;
     Button mBtn;
-    SharedPreferences sharedPreferences;
+    SharedPreferences preferences;
     boolean isRemembered = false;
 
 
@@ -25,20 +26,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mNameEt = findViewById(R.id.nameEt);
-        mAgeEt = findViewById(R.id.ageEt);
-        mRemember = findViewById(R.id.checkbox);
+        mNameEt = findViewById(R.id.editName);
+        mAgeEt = findViewById(R.id.editAge);
+        mRemember = findViewById(R.id.checkBox);
         mBtn = findViewById(R.id.login);
 
-        sharedPreferences = getSharedPreferences("SHARED_PREF", MODE_PRIVATE);
+        preferences = getSharedPreferences("SHARED_PREF", MODE_PRIVATE);
 
-        isRemembered = sharedPreferences.getBoolean("CHECKBOX", false);
+        isRemembered = preferences.getBoolean("CHECKBOX", false);
 
-        if(isRemembered){
+       if(isRemembered){
             Intent intent = new Intent(MainActivity.this, AnotherActivity.class);
             startActivity(intent);
             finish();
         }
+
 
         mBtn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -48,13 +50,13 @@ public class MainActivity extends AppCompatActivity {
                     int age = Integer.parseInt(mAgeEt.getText().toString().trim());
                     boolean checked = mRemember.isChecked();
 
-                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    SharedPreferences.Editor editor = preferences.edit();
                     editor.putString("NAME", name);
                     editor.putInt("AGE", age);
-                    editor.putBoolean("CHECKED", checked);
+                    editor.putBoolean("CHECKBOX", checked);
                     editor.apply();
 
-                    Toast.makeText(MainActivity.this, "Information Saved!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Salvo com sucesso", Toast.LENGTH_SHORT).show();
 
                     Intent intent = new Intent(MainActivity.this, AnotherActivity.class);
                     startActivity(intent);
@@ -62,8 +64,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-
-
 
 
 

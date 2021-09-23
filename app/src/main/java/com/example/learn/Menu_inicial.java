@@ -44,8 +44,12 @@ public class Menu_inicial extends AppCompatActivity {
 
         startActivity(Intent.createChooser(it, getString(R.string.email)));
 
+    }
 
+    public void TelaSensor(View view){
 
+        Intent intent = new Intent(getApplicationContext(), SensorLumi.class);
+        startActivity(intent);
     }
 
 }

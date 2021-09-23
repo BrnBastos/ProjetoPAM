@@ -14,6 +14,7 @@
 
     <string name="checkText"> Lembrar de mim </string>
 
+
     <!--   *******************   -->
 
     <string name="boas_vindas">Boas Vindas a Learn, </string>
@@ -27,6 +28,9 @@
     <string name="email"> Avalie-nos</string>
 
     <string name="ofer">Nos ajude a melhorar nossa aplicação, avalie-nos na Play Store!</string>
+
+    <string name="textLumi"> Compare o valor do nosso sensor com a tabela e assim veja se o seu brilho está correto </string>
+
 
     <!--   *******************   -->
 
@@ -56,6 +60,9 @@
     <string name="pt3"> Redações</string>
 
     <string name="introducao">  </string>
+    <string name="VoltarSensor"><b> Voltar </b></string>
+
+    <string name="sensorInfo"> <u>Clique aqui para saber se o seu brilho está prejudicando sua vista </u></string>
 
     <string name="RedaçãoInt"> Para muitos estudantes, a redação do ENEM é a parte mais assustadora da prova, saber atrair a atenção com a introdução,
         entreter com o desenvolvimento e por fim encontrar uma resposta na conclusão, essa é uma tarefa mais complicada do que parece. Por isso separamos aqui,
@@ -79,6 +86,17 @@ Portanto, faz-se imprescindível que a mídia - instrumento de ampla abrangênci
     <string name="Enemp3">Achou muito? Pois já no segundo dia, é a vez dos candidatos testarem seus conhecimentos em conteúdos ligados às Ciências da Natureza e suas Tecnologias, além de Matemática e suas Tecnologias, nessa etapa, o tempo para realização das provas é menor: 5 horas.</string>
 
     <string name="enemTiltle"> Provas do ENEM </string>
+
+    <!--   *******************   -->
+
+    <string name="local"> Sede Learn Enterprises </string>
+    <string name="Buscar"> Buscar </string>
+
+    <!--   *******************   -->
+
+    <string name="caderno"> Caderno Virtual </string>
+    <string name="cadernocontent"> Anote aqui suas observações, dúvidas ou ideias para organizar ainda mais os seus! </string>
+    <string name="editcaderno"> Caderno Virtual </string>
 
     <!--   *******************   -->
 
