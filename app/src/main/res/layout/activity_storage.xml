@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Storage">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="502dp"
+        android:layout_height="217dp"
+        android:layout_marginBottom="616dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/barraazulgrossa" />
+
+    <ImageButton
+
+        android:id="@+id/imgbtn_home5"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:background="@color/main_color"
+        android:onClick="TelaHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_home" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_equip5"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:background="@color/main_color"
+        android:onClick="TelaEquip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_info" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_menu5"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:background="@color/main_color"
+        android:onClick="TelaContent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_menu" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/book" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="115dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/main_color"
+        android:onClick="TelaCont3"
+        android:text="@string/VoltarSensor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <ScrollView
+        android:id="@+id/scrollCaderno"
+        android:layout_width="fill_parent"
+        android:layout_height="524dp"
+        android:orientation="horizontal"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/imgbtn_menu5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="caderninho supimpa" />
+
+            <EditText
+                android:id="@+id/textCaderno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonDeslogar"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="salvarAnotacoes"
+                android:text="Salvar" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

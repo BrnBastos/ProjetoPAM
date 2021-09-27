@@ -1,0 +1,113 @@
+package com.example.learn;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Storage extends AppCompatActivity {
+
+    private static final String ARQUIVO_ANOTACOES = "notesCaderno.txt";
+
+    EditText editAnotacoes;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_storage);
+
+        editAnotacoes = findViewById(R.id.textCaderno);
+
+        carregarAnotacoes(editAnotacoes);
+    }
+
+    public void salvarAnotacoes(View view){
+        String anotacoes = editAnotacoes.getText().toString();
+        FileOutputStream fileOutputStream = null;
+
+        try {
+            fileOutputStream = openFileOutput(ARQUIVO_ANOTACOES, MODE_PRIVATE);
+            fileOutputStream.write(anotacoes.getBytes());
+            Toast.makeText(this, "Anotações Salvas!", Toast.LENGTH_SHORT).show();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fileOutputStream != null){
+                try {
+                    fileOutputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+    }
+    public void carregarAnotacoes(View view){
+        FileInputStream fileInputStream = null;
+        try {
+            fileInputStream = openFileInput(ARQUIVO_ANOTACOES);
+            InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
+            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+            StringBuilder stringBuilder = new StringBuilder();
+            String anotacoes;
+
+            while ((anotacoes = bufferedReader.readLine()) != null){
+                stringBuilder.append(anotacoes).append("\n");
+            }
+
+            editAnotacoes.setText(stringBuilder.toString());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fileInputStream != null){
+                try {
+                    fileInputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    public void TelaEquip(View view){
+
+        Intent intent = new Intent(getApplicationContext(), Equip.class);
+        startActivity(intent);
+    }
+
+    public void TelaHome(View view){
+
+        Intent intent = new Intent(getApplicationContext(), Menu_inicial.class);
+        startActivity(intent);
+    }
+
+    public void TelaCont3(View view){
+
+        Intent intent = new Intent(getApplicationContext(), Content_3.class);
+        startActivity(intent);
+    }
+    public void TelaContent(View view){
+
+        Intent intent = new Intent(getApplicationContext(), Content_1.class);
+        startActivity(intent);
+    }
+
+
+
+
+
+}

@@ -44,5 +44,11 @@ public class Content_3 extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void TelaCaderno(View view){
+
+        Intent intent = new Intent(getApplicationContext(), Storage.class);
+        startActivity(intent);
+    }
+
 
 }
