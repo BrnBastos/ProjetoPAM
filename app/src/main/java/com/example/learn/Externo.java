@@ -33,15 +33,13 @@ public class Externo extends AppCompatActivity {
     }
 
     public void savePublicly(View view) {
-        // Pede a permissão para acessar o armazenamento externo
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
                 EXTERNAL_STORAGE_PERMISSION_CODE);
+
         String editTextData = txtComment.getText().toString();
 
-        // getExternalStoragePublicDirectory() - Pega o diretório público de Downloads.
         File folder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
 
-        // Armazena os dados obtidos num arquivo nomeado comentario.txt
         File file = new File(folder, "comentario.txt");
         writeTextData(file, editTextData);
         txtComment.setText("");
@@ -67,7 +65,6 @@ public class Externo extends AppCompatActivity {
         }
     }
     public void mostrar(View view) {
-        // Creating an intent to start a new activity
         Intent intent = new Intent(Externo.this, Vizualizar.class);
         startActivity(intent);
     }
