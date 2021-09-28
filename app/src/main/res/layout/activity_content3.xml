@@ -156,12 +156,13 @@
         android:layout_marginRight="49dp"
         android:layout_marginBottom="16dp"
         android:onClick="TelaCaderno"
-        android:text="Button"
+        android:text="Caderno"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957" />
+        app:layout_constraintVertical_bias="0.957"
+        android:backgroundTint="@color/second_color"/>
 
     <TextView
         android:id="@+id/textView13"
