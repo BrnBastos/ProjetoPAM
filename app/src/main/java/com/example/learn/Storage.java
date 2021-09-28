@@ -1,6 +1,7 @@
 package com.example.learn;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SwitchCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,6 +21,7 @@ public class Storage extends AppCompatActivity {
     private static final String ARQUIVO_ANOTACOES = "notesCaderno.txt";
 
     EditText editAnotacoes;
+    SwitchCompat switcher;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,7 @@ public class Storage extends AppCompatActivity {
         editAnotacoes = findViewById(R.id.textCaderno);
 
         carregarAnotacoes(editAnotacoes);
+        switcher = findViewById(R.id.switchStorage1);
     }
 
     public void salvarAnotacoes(View view){
@@ -106,6 +109,13 @@ public class Storage extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void switchClick(View v){
+        if(switcher.isChecked()) {
+            Intent it = new Intent(this, Externo.class);
+            startActivity(it);
+        }
+
+    }
 
 
 
