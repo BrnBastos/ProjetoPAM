@@ -32,7 +32,7 @@ public class Vizualizar extends AppCompatActivity {
         if (data != null) {
             txtVizualizar.setText(data);
         } else {
-            txtVizualizar.setText("No Data Found");
+            txtVizualizar.setText("Anotações do caderno");
         }
     }
 
